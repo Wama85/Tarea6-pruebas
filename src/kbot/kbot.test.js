@@ -16,7 +16,7 @@ console.log("Saludar a Juan en espanol por la noche".toUpperCase());
 kbot = new Kbot("ES");
 console.log(kbot.saludar("Juan", 20)=="Buenas noches Juan");*/
 
-describe("SaludorEspañol", () => {
+describe("Saludar Español".toUpperCase(), () => {
     //Saludar buenos dias en español
     it("Saludar a Andrés en español por la mañana", () => {
         let kbot = new Kbot();
@@ -40,12 +40,13 @@ describe("SaludorEspañol", () => {
 
     
   });
-  describe("SaludarIngles",()=>{
+  describe("Saludar en Ingles".toUpperCase(),()=>{
  //Saludar buenos dias en Ingles
  it("Saludar Andres por la mañana en Ingles", () => {
     let kbot = new Kbot("EN");
     let resultado = kbot.saludar("Andrés",5) 
     expect(resultado).toEqual("Good morning Andrés");
+   
 });
  //Saludar buenas Tardes en Ingles
  it("Saludar Andres por la tarde en Ingles", () => {
